@@ -149,7 +149,7 @@ AWS_SECRET_ACCESS_KEY = 'kv6YzToFB73Esat2jwhB2IUFBHSfSC2KuysmWIYm' #os.environ.g
 AWS_STORAGE_BUCKET_NAME = 'rouizi' #os.environ.get("S3_BUCKET_NAME", "")
 AWS_QUERYSTRING_AUTH = False 
 AWS_S3_CUSTOM_DOMAIN = 'rouizi.s3.amazonaws.com' #os.environ.get("AWS_S3_CUSTOM_DOMAIN", "")
-MEDIA_URL = 'https://rouizi.s3.amazonaws.com/images/' #os.environ.get("MEDIA_URL", "")
+MEDIA_URL = 'https://rouizi.s3.amazonaws.com/' #os.environ.get("MEDIA_URL", "")
 #MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media/')
 
