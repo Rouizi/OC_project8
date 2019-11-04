@@ -31,4 +31,4 @@ have a better nutri_score but I gave an example to know that it can happen for o
 You can visit the website at the following address: https://purbeurre-oc8.herokuapp.com/
 
 
-If you find an error on the site or need help please contact me on: cinorouizi@hotmail.fr or on facebook search: Yacine Rouizi.
+If you find an error on the website or need help please contact me on: cinorouizi@hotmail.fr or on facebook search: Yacine Rouizi.
