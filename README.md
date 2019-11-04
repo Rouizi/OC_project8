@@ -3,7 +3,7 @@
 The Pur Beurre start-up, which you have already worked for, decided to launch a web application that would allow their customers to find 
 healthy alternatives to food considered "too fat, too sweet, too salty"
 
-##Functionalities
+## Functionalities
 
  - Viewing the search field from the home page
  - The search must not be using AJAX
@@ -26,6 +26,7 @@ healthy alternatives to food considered "too fat, too sweet, too salty"
 For the product "Kiri à la crème de lait (12 Portions)" he will not offer us "Grany cereals chocolate" since he does not 
 have a better nutri_score but I gave an example to know that it can happen for other products
 
+## Link
 
 You can visit the website at the following address: https://purbeurre-oc8.herokuapp.com/
 
