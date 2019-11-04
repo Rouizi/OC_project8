@@ -4,7 +4,7 @@ catalog/__pycache__
 catalog/migrations/__pycache__
 users/__pycache__/
 users/migrations/__pycache__
-../.idea/
-../.pytest_cache/
-../.vscode/
-../.git/
+.idea/
+.pytest_cache/
+.vscode/
+.git/
