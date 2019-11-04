@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get("SECRET_KEY")
+SECRET_KEY = os.environ.get("SECRET_KEY", '4i&u(!%shd*0-3$ls)fohsjsd48t(gu%1-ch_wyzk7@#n3bd8e')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 if os.environ.get('ENV') == 'PRODUCTION':
@@ -153,6 +153,7 @@ AWS_QUERYSTRING_AUTH = False
 AWS_S3_CUSTOM_DOMAIN = os.environ.get("AWS_S3_CUSTOM_DOMAIN", "")
 MEDIA_URL = os.environ.get("MEDIA_URL", "")
 MEDIA_ROOT = os.path.join(BASE_DIR,'media/')
+
 
 LOGIN_URL = '/users/log_in/'
 
