@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'koq86$4vmo3(r3p9pww8+ri@o2!kc2-z*wl18wr@k3opdif(kb'
+SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 if os.environ.get('ENV') == 'PRODUCTION':
@@ -93,7 +93,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',   
         'NAME': 'openfoodfacts',             
         'USER': 'root',
-        'PASSWORD': 'Lalydydu1257',        
+        'PASSWORD': os.environ.get('PASSWORD'),        
         'HOST': '',                    
         'PORT': '5432',                         
     }
@@ -142,15 +142,16 @@ STATIC_URL = '/static/'
 INTERNAL_IPS = ['127.0.0.1']
 
 # Media
+# Amazon Simple Storage Service (S3) to store media file
+# see https://devcenter.heroku.com/articles/s3 for more details
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-AWS_ACCESS_KEY_ID = 'AKIAIWG66P4WGUGBJB2Q' #os.environ.get("AWS_ACCESS_KEY_ID", "") 
-AWS_SECRET_ACCESS_KEY = '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' #os.environ.get("AWS_SECRET_ACCESS_KEY", "")
-AWS_STORAGE_BUCKET_NAME = 'rouizi' #os.environ.get("S3_BUCKET_NAME", "")
+AWS_ACCESS_KEY_ID = os.environ.get("AWS_ACCESS_KEY_ID", "") 
+AWS_SECRET_ACCESS_KEY = os.environ.get("AWS_SECRET_ACCESS_KEY", "")
+AWS_STORAGE_BUCKET_NAME = os.environ.get("S3_BUCKET_NAME", "")
 AWS_QUERYSTRING_AUTH = False 
-AWS_S3_CUSTOM_DOMAIN = 'rouizi.s3.amazonaws.com' #os.environ.get("AWS_S3_CUSTOM_DOMAIN", "")
-MEDIA_URL = 'https://rouizi.s3.amazonaws.com/' #os.environ.get("MEDIA_URL", "")
-#MEDIA_URL = '/media/'
+AWS_S3_CUSTOM_DOMAIN = os.environ.get("AWS_S3_CUSTOM_DOMAIN", "")
+MEDIA_URL = os.environ.get("MEDIA_URL", "")
 MEDIA_ROOT = os.path.join(BASE_DIR,'media/')
 
 LOGIN_URL = '/users/log_in/'
