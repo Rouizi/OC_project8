@@ -24,7 +24,7 @@ healthy alternatives to food considered "too fat, too sweet, too salty"
  as a substitute, which is not really a substitute.
 
 For the product "Kiri à la crème de lait (12 Portions)" he will not offer us "Grany cereals chocolate" since he does not 
-have a better nutri_score but I gave an example to know that it can happen for other products
+have a better nutriscore but I gave an example to know that it can happen for other products
 
 ## Link
 
