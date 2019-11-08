@@ -26,7 +26,7 @@ The website can be completed with the following features :
   - Adding a feature "sorted by"
   - Adding the feature "Last seen" in users profile
   
-All these features are added in the second version of this project you can find the source code here :
+All these features are added in the second version of this project that you can find the source code here :
 https://github.com/Rouizi/OC_project11
   
  
