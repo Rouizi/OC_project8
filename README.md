@@ -23,7 +23,7 @@ The website can be completed with the following features :
   - The possibility for users to customize their profile
   - Viewing products on multiple pages (pagination)
   - Adding a page displaying all categories with the number of products they contain
-  - Adding a feature sorted by
+  - Adding a feature "sorted by"
   - Adding the feature "Last seen" in users profile
   
 All these features are added in the second version of this project you can find the source code here :
