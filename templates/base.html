@@ -57,7 +57,6 @@
                 <input type="search" name="query" class="input-md form-control" placeholder="Rechercher un produit">
               </form>
             </li>
-            <li><a style="color: black">Categories</a></li>
             <li>
               <a href="{% if user.is_authenticated %}{% url 'users:profile' %}{% else %}{% url 'users:signup' %}{% endif %}">
                 <img src="{% static 'img/signup.png' %}" alt="signup" title="{% if user.is_authenticated %}Profil{% else %}S'inscrire{% endif %}" />
