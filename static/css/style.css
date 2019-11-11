@@ -211,7 +211,10 @@ footer{
   margin-top: 70px; 
   margin-bottom: 50px;
 }
-.img-nutriscore .img-nutrition{
+.img-nutriscore {
+  width: 100%;
+}
+.img-nutrition{
   width: 100%;
 }
 .repere{
