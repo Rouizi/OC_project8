@@ -17,7 +17,7 @@ healthy alternatives to food considered "too fat, too sweet, too salty"
  
 The website can be completed with the following features :
  
-  - Adding a contact form, a contact form is a more efficient way for a user to contact the website's responsibles
+  - Auto-completion system in the search bar
   - The ability for users to change their password
   - The possibility for users to leave a comment on a product
   - The possibility for users to customize their profile
