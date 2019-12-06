@@ -49,5 +49,4 @@ You can visit the website at the following address: https://purbeurre-oc8.heroku
 
 
 If you find an error on the website or need help please contact me on: cinorouizi@hotmail.fr or on facebook search: Yacine Rouizi.
-
-[![HitCount](http://hits.dwyl.io/{username}/{project}.svg)](http://hits.dwyl.io/{username}/{project})
+[![HitCount](http://hits.dwyl.io/rouizi/OC_project8.svg)](http://hits.dwyl.io/rouizi/OC_project8)
