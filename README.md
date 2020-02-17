@@ -48,6 +48,6 @@ have a better nutriscore but I gave an example to know that it can happen for ot
 You can visit the website at the following address: https://purbeurre-oc8.herokuapp.com/
 
 
-If you find an error on the website or need help please contact me on: cinorouizi@hotmail.fr or on facebook search: Yacine Rouizi.
+You can contact me on : cinorouizi@hotmail.fr or cinorouizi@gmail.com
 
 [![HitCount](http://hits.dwyl.io/rouizi/OC_project8.svg)](http://hits.dwyl.io/rouizi/OC_project8)
