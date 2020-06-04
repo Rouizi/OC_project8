@@ -30,7 +30,7 @@ All these features are added in the second version of this project that you can 
 https://github.com/Rouizi/OC_project11
   
  
-## Importante note
+## Important note
  
  The algorithm responsible for recovering a substitute is not perfect. Indeed, to find a substitute the program will look for 
  the categories in which the product belongs and then try to find a substitute for the category that contains the least product.
